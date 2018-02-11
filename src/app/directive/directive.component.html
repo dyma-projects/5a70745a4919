@@ -1,0 +1,22 @@
+<h1>{{titre}}</h1>
+<input [type]="inputType" />
+<p>
+  <input type="text" [(ngModel)]="content"/>
+  {{content}}
+</p>
+
+<p [style.display]="afficherP1">
+  {{p1}}
+</p>
+
+<p [style.display]="afficherP2">
+  {{p2}}
+</p>
+
+<input type="button" value="change paragraphe" (click)="changeStatusValue()">
+
+<ul>
+  <li *ngFor="let text of texts">{{text}}</li>
+</ul>
+
+<hr>

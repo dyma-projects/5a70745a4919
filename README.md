@@ -6,40 +6,40 @@ Notez bien que le l'UI ( l'interface utilisateur rendue grâce au CSS ) ne rentr
 
 ## Lancer le projet
 
-Pour lancer l'application il faut d'abord installer les dépendances avec npm : 
+Pour lancer l'application il faut d'abord installer les dépendances avec npm :
 
 `npm i`
 
-Puis lancer le serveur de développement avec : 
+Puis lancer le serveur de développement avec :
 
 `ng serve`
 
 ## Objectifs
 
-[ ] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
+[ * ] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
 
-[ ] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
+[ * ] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
 
-[ ] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
+[ * ] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
 
-[ ] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
-      
-[ ] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
+[ * ] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
 
-[ ] Ajouter dans le component 'directive' un attribut 'status', de type boolean, initialisé à TRUE.
+[ * ] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
 
-[ ] Ajouter dans le component 'directive' un bouton avec le text de votre choix.
-      
-[ ] Cliquez sur le bouton doit inverser la valeur de l'attribut 'status' dans la classe.
+[ * ] Ajouter dans le component 'directive' un attribut 'status', de type boolean, initialisé à TRUE.
 
-[ ] Si status est à TRUE, le paragraphe contenant p1 doit être affiché et le paragraphe contenant 'p2' ne doit pas être visible.
-  
-[ ] Si status est à FALSE, le paragraphe contenant p2 doit être affiché et le paragraphe content 'p1' ne droit pas être visible.
-      
-[ ] Dans le composant 'directive' ajouter un attribut 'texts' de type tableau de chaîne de caractères. Dans cette attribut définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
+[ * ] Ajouter dans le component 'directive' un bouton avec le text de votre choix.
 
-[ ] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
-      
+[ * ] Cliquez sur le bouton doit inverser la valeur de l'attribut 'status' dans la classe.
+
+[ * ] Si status est à TRUE, le paragraphe contenant p1 doit être affiché et le paragraphe contenant 'p2' ne doit pas être visible.
+
+[ * ] Si status est à FALSE, le paragraphe contenant p2 doit être affiché et le paragraphe content 'p1' ne droit pas être visible.
+
+[ * ] Dans le composant 'directive' ajouter un attribut 'texts' de type tableau de chaîne de caractères. Dans cette attribut définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
+
+[ * ] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
+
 ## Avant de finir le projet
 
 Pensez à pusher votre travail avant de cliquer sur 'terminer le projet'.
